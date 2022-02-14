@@ -167,9 +167,13 @@ text-align:center;
 }
 
 .card.output{
-    background:var(--red);
+    background:white;
     font-weight:bold;
-    color:white;
+    color:var(--red);
+}
+
+.saida{
+    color:var(--dark-blue)
 }
 
 /*Table ===========================*/
@@ -292,7 +296,7 @@ input {
 }
 
 .input-group small {
-    opacity:0.4%;
+    opacity:0.4;
 }
 
 .input-group.actions {
