@@ -240,7 +240,7 @@ td.expense{
 td.minus {
     align-items: center;
     justify-content:center;
-    cursor:pointer;
+    cursor:pointer
     
 }
 
@@ -260,6 +260,8 @@ td.minus {
 
     opacity:0;
     visibility:hidden;
+
+    z-index: 999;
 }
 
 .modal-overlay.active {
@@ -272,6 +274,10 @@ td.minus {
     padding: 2.4rem;
     width:90%;
     max-width:500px;
+
+    position:relative;
+    z-index:1
+
 }
 
 /*form ===========================*/
@@ -313,12 +319,12 @@ input {
 
 
 /*footer ===========================*/
-footer{
-    text-align:center;
-    padding:5rem 0rem 5rem;
+footer {
+    text-align: center;
+    padding: 4rem 0 2rem;
     color: var(--dark-blue);
 
-    opacity:0.6;
+    opacity: 0.6;
 }
 
 /*responsive ===========================*/
